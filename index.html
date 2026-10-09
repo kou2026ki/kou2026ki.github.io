@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="kou2026ki 的个人主页，关于设计、技术与持续创造。" />
+    <meta name="theme-color" content="#f2efe6" />
+    <title>kou2026ki — 个人主页</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="logo" href="#top" aria-label="返回首页">K<span>.</span></a>
+      <nav aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#work">在做的事</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.91-.1-1.34A7 7 0 0 1 13.34 3.1 9.3 9.3 0 0 0 12 3Z"/></svg>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> HELLO, WORLD</p>
+          <h1 id="hero-title">你好，我是 <em>kou2026ki</em>。<br />我喜欢把想法<br />变成真实的东西。</h1>
+          <p class="hero-intro">关注设计、技术与人与人之间的连接。保持好奇，持续创造，也享受沿途每一个微小的进步。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">看看我在做什么 <span>↗</span></a>
+            <a class="text-link" href="#about">更多关于我 <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-label="抽象几何图形装饰">
+          <div class="orbit orbit-one"><i></i></div>
+          <div class="orbit orbit-two"><i></i></div>
+          <div class="portrait-mark">K</div>
+          <span class="art-note note-one">CURIOUS</span>
+          <span class="art-note note-two">MAKER</span>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="兴趣关键词">
+        <div>
+          <span>设计</span><i>✦</i><span>技术</span><i>✦</i><span>创造</span><i>✦</i><span>学习</span><i>✦</i>
+          <span>设计</span><i>✦</i><span>技术</span><i>✦</i><span>创造</span><i>✦</i><span>学习</span><i>✦</i>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-label reveal"><span>01</span> 关于我</div>
+        <div class="about-content reveal">
+          <h2>相信好的作品，始于<br />一个值得追问的“为什么”。</h2>
+          <div class="about-grid">
+            <p>我享受从模糊的问题里找到清晰的方向，再用设计与技术把它变成简单、自然、让人愿意使用的体验。</p>
+            <p>工作之外，我喜欢记录新鲜想法、探索好用的工具，也会给自己留一点时间读书、散步和观察世界。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="section-label reveal"><span>02</span> 在做的事</div>
+        <div class="work-grid">
+          <article class="work-card card-large reveal">
+            <div class="card-top"><span>探索 / 01</span><span>ONGOING</span></div>
+            <div class="card-visual visual-product" aria-hidden="true"><div></div><div></div><div></div></div>
+            <div class="card-copy"><h3>创造更好的数字体验</h3><p>把复杂变简单，让每一次互动都更自然、更友好。</p></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="card-top"><span>记录 / 02</span><span>NOTES</span></div>
+            <div class="card-visual visual-notes" aria-hidden="true"><span>?</span><span>→</span><span>!</span></div>
+            <div class="card-copy"><h3>把思考写下来</h3><p>记录关于产品、设计和成长的片段。</p></div>
+          </article>
+          <article class="work-card reveal">
+            <div class="card-top"><span>成长 / 03</span><span>DAILY</span></div>
+            <div class="card-visual visual-learn" aria-hidden="true"><div class="sun"></div><div class="steps"></div></div>
+            <div class="card-copy"><h3>持续学习</h3><p>对新事物保持开放，每天比昨天多懂一点。</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="contact-inner reveal">
+          <p class="eyebrow"><span></span> LET'S CONNECT</p>
+          <h2>有好点子？<br /><em>一起聊聊。</em></h2>
+          <p>如果你想交流想法、分享有趣的项目，或者只是打个招呼，欢迎通过 GitHub 找到我。</p>
+          <a class="button button-light" id="github-link" href="https://github.com/kou2026ki" target="_blank" rel="noreferrer">在 GitHub 联系我 <span>↗</span></a>
+        </div>
+        <div class="contact-shape" aria-hidden="true"><span>K</span></div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="logo" href="#top">K<span>.</span></a>
+      <p>用好奇心建造 · <span id="year"></span></p>
+      <a href="#top">回到顶部 ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
